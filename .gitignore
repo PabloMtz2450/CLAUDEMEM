@@ -1,0 +1,22 @@
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Archivos sensibles
+*.key
+*.pem
+.env
+.env.local
+secrets/
+credentials/
+
+# Temp
+*.tmp
+*.temp
+~*
+
+# Pero mantener estructura
+!PRINCIPADO/memory/
+!PRINCIPADO/sessions/
+!PRINCIPADO/memory/.gitkeep
+!PRINCIPADO/sessions/.gitkeep
